@@ -3,3 +3,9 @@ server:
 spring:
   profiles:
     active: dev
+
+mybatis:
+  mapper-locations: classpath:com/black/pearl/dao/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

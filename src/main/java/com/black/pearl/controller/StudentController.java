@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class StudentController {
 
-    private StudentService studentService;
+    private final StudentService studentService;
 
     @GetMapping("/large/batch/insert")
     public void largeBatch(){

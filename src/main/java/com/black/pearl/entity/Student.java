@@ -11,4 +11,5 @@ public class Student {
     private String firstInfo;
     private String secondInfo;
     private String thirdInfo;
+    private String other;
 }
