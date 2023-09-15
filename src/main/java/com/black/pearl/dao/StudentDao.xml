@@ -5,7 +5,7 @@
 <mapper namespace="com.black.pearl.dao.StudentDao">
 
     <insert id="largeBatchInsert" parameterType="com.black.pearl.entity.Student">
-        insert into student (name, id_no, address, first_info, second_info, third_info, other)
+        insert into girl (name, id_no, address, first_info, second_info, third_info, other)
         values
         <foreach collection="list" item="student" separator=",">
             (#{student.name},

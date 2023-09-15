@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: erick_@0507
+    url: jdbc:mysql://124.221.202.112:3306/shuzhan_db
